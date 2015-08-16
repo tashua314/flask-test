@@ -1,0 +1,29 @@
+{
+  "name": "flask",
+  "version": "0.0.1",
+  "authors": [
+    "高橋　雄太 <yuta.takahashi@zawatt.com>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  },
+  "exportsOverride":{
+    "bootstrap":{
+      "js": "**/bootstrap.min.js",
+      "css": "**/bootstrap.min.css"
+    },
+    "jquery":{
+      "js": "**/jquery.min.js"
+    }
+  }
+}
