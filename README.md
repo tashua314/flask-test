@@ -50,3 +50,9 @@ $ source env/bin/activate // Pythonの実行環境を仮想環境で準備
 ```
 $ python hello.py
 ```
+
+## 参考
+* [続いてはPython（Flask）でHeroku!](http://qiita.com/kounoike/items/6fc31fe051e5d688f136)
+* [Flask - クイックスタート](https://flask-docs-ja.readthedocs.org/en/latest/quickstart/#id6)
+* [ウェブアプリケーションフレームワーク Flask を使ってみる](http://qiita.com/ynakayama/items/2cc0b1d3cf1a2da612e4)
+* [VIRTUALENV について](http://blog1.erp2py.com/2011/07/virtualenv.html)
