@@ -25,6 +25,7 @@ $ grunt bower:install
 $ bower install jquery#1.9.1
 # ex) 有るバージョンの最新
 $ bower install jquery#1
+$ grunt bower:install
 ```
 
 ## 手動の場合
