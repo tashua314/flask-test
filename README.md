@@ -1,4 +1,5 @@
-# まずはじめに
+# 環境構築
+## まずはじめに
 ```
 $ brew install node.js
 $ brew install pip
@@ -13,13 +14,13 @@ $ npm install grunt-bower-task --save-dev // grunt-bower-task のインストー
 $ grunt bower:install
 ```
 
-# githubなどからcssやjsを追加する場合
-## 自動の場合
+## githubなどからcssやjsを追加する場合
+### 自動の場合
 ```
 $ bower install <name> --save
 $ grunt bower:install
 ```
-### バージョン指定する場合
+#### バージョン指定する場合
 ```
 # ex) 特定のバージョン
 $ bower install jquery#1.9.1
@@ -28,12 +29,24 @@ $ bower install jquery#1
 $ grunt bower:install
 ```
 
-## 手動の場合
+### 手動の場合
 1. bower.jsonに追記
 1. `grunt bower:install` を実行
 
 
-# 参考
+## 参考
 * [Bower入門(基礎編)](http://yosuke-furukawa.hatenablog.com/entry/2013/06/01/173308)
 * [Bower入門(応用編)](http://yosuke-furukawa.hatenablog.com/entry/2013/06/04/085537)
 * [bowerでインストールしたファイルの配置を設定するにはgrunt-bower-taskが便利](http://kyohei8.hatenablog.com/entry/2013/11/17/145316)
+
+
+# 開発
+## まずはじめに
+```
+$ source env/bin/activate // Pythonの実行環境を仮想環境で準備
+```
+
+## ローカルでの動作確認
+```
+$ python hello.py
+```
